@@ -1,0 +1,39 @@
+* {margin: 0; padding: 0;}
+
+.results-box {
+  margin: 15px;
+}
+
+.results-box ul {
+  list-style-type: none;
+  width: 100%;
+}
+
+.results-box h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+.results-box li img {
+  float: left;
+  margin: 0 15px 0 0;
+  width: 150px;
+}
+
+.results-box li p {
+  font: 300 17px/1.5 Helvetica, Times New Roman, serif;
+}
+
+.results-box li p.article_link {
+  font-size: 13px;
+  font-style: italic;
+}
+
+.results-box li {
+  padding: 10px;
+  overflow: auto;
+}
+
+.results-box li:hover {
+  background: #eee;
+  cursor: pointer;
+}
