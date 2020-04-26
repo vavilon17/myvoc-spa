@@ -58,9 +58,10 @@ class PassagesBlock extends React.Component {
 
 function Passage(props) {
   const text = unescape(props.item.text)
+  const logo_src = props.item.source_id + '.png'
   return <li>
             <div>
-              <img src="bi_logo.png" />
+              <img src={logo_src} />
               <p className="text">{text}</p>
             </div>
             <p className="article_link">
