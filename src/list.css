@@ -22,6 +22,7 @@
 
 .results-box li p {
   font: 300 17px/1.5 Helvetica, Times New Roman, serif;
+  height: 100%;
 }
 
 .results-box li p.article_link {
